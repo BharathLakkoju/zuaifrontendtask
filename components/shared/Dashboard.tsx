@@ -44,7 +44,10 @@ export default function Dashboard() {
         lastModified: file.lastModified,
         courseworkType,
         subject,
-        essayTitle: essayTitle === "" ? "lorem ipsum" : essayTitle,
+        essayTitle:
+          essayTitle === ""
+            ? "lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+            : essayTitle,
       }));
       addFiles(fileInfos);
       console.log(fileInfos);
