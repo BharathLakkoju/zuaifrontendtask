@@ -1,13 +1,33 @@
 ## ZuAi Frontend Task
 
 This is the final implementation of the frontend task based on the requirrements provided. I used Next.js, TailwindCSS, Shadcn UI and Zustand for state management.
+
+**Note:** Please **click** on the **first purple menu button on the sidebar** to see the evaluation page. If you're on responsive view, you can click on the hamburger menu button on the **top right corner**.
+
 You can check the live demo [here](https://zuaifrontendtask.vercel.app/).
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Steps to run the application
 
-## Getting Started
+1. Clone the repository
+   using the command
 
-First, run the development server:
+```bash
+git clone https://github.com/BharathLakkoju/AccuknoxTaskDashboard.git
+```
+
+2. Install the dependencies
+   using the command
+
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
+
+3. Run the application
+   using the command
 
 ```bash
 npm run dev
@@ -15,27 +35,45 @@ npm run dev
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Application will be live on http://localhost:3000/
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Technologies used
 
-## Learn More
+1. NextJS
+2. Tailwind CSS
+3. Shadcn UI
+4. zustand (for state management)
+5. react-dropzone (for file upload drag-drop functionality)
 
-To learn more about Next.js, take a look at the following resources:
+# List of features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- File Upload functionality
+- Stored uploaded files in local storage
+- display uploaded files in the dashboard
+- delete uploaded files
+- responsive design
+- File upload using drag-drop functionality
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Screenshots
 
-## Deploy on Vercel
+![Screenshot 2023-07-07 at 11 11 07 PM](https://github.com/BharathLakkoju/zuaifrontendtask/public/image.png)
+This is the dashboard.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![Screenshot 2023-07-07 at 11 11 07 PM](https://github.com/BharathLakkoju/zuaifrontendtask/public/image1.png)
+This is the implementation and usage of drag and drop file upload functionality.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![Screenshot 2023-07-07 at 11 11 07 PM](https://github.com/BharathLakkoju/zuaifrontendtask/public/image2.png)
+After adding the file it is stored in the local storage and displayed in the dashboard. You can also delete the file from the dashboard.
+
+![Screenshot 2023-07-07 at 11 11 07 PM](https://github.com/BharathLakkoju/zuaifrontendtask/public/image3.png)
+This is the responsive design of the application.
+
+![Screenshot 2023-07-07 at 11 11 07 PM](https://github.com/BharathLakkoju/zuaifrontendtask/public/image4.png)
+Click this button to view the evaluation page.
+
+![Screenshot 2023-07-07 at 11 11 07 PM](https://github.com/BharathLakkoju/zuaifrontendtask/public/image5.png)
+This is the evaluation page.

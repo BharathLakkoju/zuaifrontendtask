@@ -44,10 +44,7 @@ export default function Dashboard() {
         lastModified: file.lastModified,
         courseworkType,
         subject,
-        essayTitle:
-          essayTitle === ""
-            ? "lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
-            : essayTitle,
+        essayTitle: essayTitle === "" ? "lorem ipsum" : essayTitle,
       }));
       addFiles(fileInfos);
       console.log(fileInfos);
@@ -164,7 +161,7 @@ export default function Dashboard() {
               {files.map((file, index) => (
                 <Card key={index}>
                   <CardContent className="p-4 flex flex-col justify-between h-full">
-                    <div className="flex justify-between items-center">
+                    <div className="flex justify-between items-center overflow-hidden">
                       <span className="font-semibold mb-2 max-w-[200px] text-ellipsis overflow-hidden text-zinc-900">
                         {file.essayTitle}
                       </span>
