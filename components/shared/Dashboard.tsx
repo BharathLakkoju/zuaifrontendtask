@@ -46,7 +46,7 @@ export default function Dashboard() {
         subject,
         essayTitle:
           essayTitle === ""
-            ? "lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+            ? "lorem ipsum"
             : essayTitle,
       }));
       addFiles(fileInfos);
