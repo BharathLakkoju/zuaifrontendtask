@@ -61,19 +61,25 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## Screenshots
 
 ![Screenshot 2023-07-07 at 11 11 07 PM](/public/image.png)
+
 This is the dashboard.
 
 ![Screenshot 2023-07-07 at 11 11 07 PM](/public/image1.png)
+
 This is the implementation and usage of drag and drop file upload functionality.
 
 ![Screenshot 2023-07-07 at 11 11 07 PM](/public/image2.png)
+
 After adding the file it is stored in the local storage and displayed in the dashboard. You can also delete the file from the dashboard.
 
 ![Screenshot 2023-07-07 at 11 11 07 PM](/public/image3.png)
+
 This is the responsive design of the application.
 
 ![Screenshot 2023-07-07 at 11 11 07 PM](/public/image4.png)
+
 Click this button to view the evaluation page.
 
 ![Screenshot 2023-07-07 at 11 11 07 PM](/public/image5.png)
+
 This is the evaluation page.
